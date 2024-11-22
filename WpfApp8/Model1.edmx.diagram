@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="421df6f011264ab6a30bacd69d6d6950" Name="Diagram1" ZoomLevel="83">
+        <EntityTypeShape EntityType="metalRussModel.clients" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="metalRussModel.employees" Width="1.5" PointX="8.25" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="metalRussModel.metals" Width="1.5" PointX="3" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="metalRussModel.order_details" Width="1.5" PointX="7.5" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="metalRussModel.orders" Width="1.5" PointX="5.25" PointY="7.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="metalRussModel.production_operations" Width="1.5" PointX="10.5" PointY="2.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="metalRussModel.products" Width="1.5" PointX="5.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="metalRussModel.suppliers" Width="1.5" PointX="0.75" PointY="2.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="metalRussModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="metalRussModel.Users" Width="1.5" PointX="10.5" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="metalRussModel.FK__orders__client_i__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="metalRussModel.FK__productio__emplo__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="metalRussModel.FK__Users__EmployeeI__55F4C372" ManuallyRouted="false" />
+        <AssociationConnector Association="metalRussModel.FK__metals__supplier__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="metalRussModel.FK__products__metal___5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="metalRussModel.FK__order_det__order__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="metalRussModel.FK__order_det__produ__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="metalRussModel.FK__productio__produ__5CD6CB2B" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
